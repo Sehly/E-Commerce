@@ -1,0 +1,66 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(pexels-adrian-odogwu-2078202-3820514.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+#loginPage {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#loginPage h1 {
+    font-size: larger;
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#loginPage label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#loginPage .data {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color:#c2c2c2; 
+    border-radius: 5px;
+}
+
+#loginPage .parag {
+    display: none;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: rgb(243, 110, 110);
+    border-radius: 5px;
+    text-align: center;
+}
+
+#buttonDesign {
+    text-align: center;
+}
+
+#buttonDesign #submitData {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color:rgba(99, 98, 98, 0.781) ;
+    cursor: pointer;
+}

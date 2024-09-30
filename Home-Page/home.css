@@ -1,0 +1,172 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    color: black;
+    box-sizing: border-box;
+}
+body {
+    background-color: white ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+}
+.container {
+    width: 100%;
+    height: 1500px;
+}
+.navigator a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+
+.navigator {
+    height: fit-content;
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+    background-color: #003C43; 
+    justify-items: center;
+}
+
+.heading {
+    padding: 10px;
+    margin: 15px 10px;
+    text-align: center;
+    font-size: x-large;
+}
+
+#heading1 {
+    justify-content: right;
+    padding: 10px;
+    margin: 15px 10px 15px 300px;
+    text-align: center;
+    font-size: x-large;
+}
+header{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 50px;
+justify-content: space-around;
+padding: 120px;
+margin: 20px;
+text-align: center;
+animation: spin 8s linear infinite;
+}
+@keyframes spin {
+    0% {
+      transform: rotateY(0deg); /* Start rotation from 0 degrees on the Y-axis */
+    }
+    100% {
+      transform: rotateY(360deg); /* End rotation at 360 degrees (full circle) on the Y-axis */
+    }
+  }
+.imageFrame {
+    width: 70%; 
+    max-width: 800px; 
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px auto 15px;
+    padding: 10px;
+}
+#img0 {
+    max-width: 100%;
+    height: 500px;
+    margin: 10px;
+}
+
+.buttD {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(99, 98, 98, 0.781);
+    cursor: pointer;
+    border: none;
+} 
+#cards {
+    padding: 30px;
+    margin: 50px 10px 10px 10px;
+    display: flex;
+    justify-items: left;
+    height: 700px;
+}
+.cardSec {
+    width: 33%;
+}
+#cards img {
+    width: 330px ;
+    height: 250px;
+    margin-left: 40px;
+    justify-content: left;
+}
+.textC{
+    padding: 20px;
+    margin: 20px;
+    justify-content: left;
+
+} 
+.btnC{
+    width: 350px;
+    height: 100px;
+    margin: 20px;
+    margin-left: 35px;
+    padding: 10px;
+    justify-content: left;
+    background-color: rgba(99, 98, 98, 0.781);
+    cursor: pointer;
+    border: none;
+}
+footer {     
+    justify-content: center;
+    background-color: #003C43;
+    display: flex;
+    width: 100%; 
+    height: 100px;
+    padding: 0px;
+    margin: 0px;
+}
+
+footer a {
+    color: white;
+    text-decoration-line: none;
+}
+.parent {
+    margin-left: 110px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 10px;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+}
+.gridHeads {
+    font-style: italic;
+    font-size: larger;
+    margin: 5px 0px;
+}
+.social-icons a {
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0px 15px;
+}
+
+#upPage {
+    display: block; 
+    position: fixed;
+    text-align: center; 
+    background-color: rgba(99, 98, 98, 0.781);
+    width: 40px;
+    height: 40px;
+    bottom: 5px;
+    right: 5px;
+    z-index: 1;
+    cursor: pointer;
+    border: none;
+}
+
+ 
